@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane id="pane" fx:id="pane" prefHeight="682.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="682.0" fitWidth="881.0" layoutX="1.0" layoutY="-6.0">
+         <image>
+            <Image url="@img2.jpg" />
+         </image>
+      </ImageView>
+      <TextArea id="Area2" fx:id="Area2" layoutX="734.0" layoutY="391.0" prefHeight="290.0" prefWidth="148.0" />
+      <Circle id="Circle" fx:id="Circle" fill="#ff1fdf" layoutX="86.0" layoutY="68.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 0.6;" />
+      <TextArea id="Area1" fx:id="Area1" layoutX="734.0" layoutY="28.0" prefHeight="39.0" prefWidth="148.0" />
+      <Button layoutX="767.0" layoutY="68.0" mnemonicParsing="false" onMouseClicked="#Clicked" prefHeight="46.0" prefWidth="114.0" text="commit" />
+      <Button id="head" fx:id="head" layoutX="119.0" layoutY="22.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="44.0" style="-fx-background-radius: 1000;" text="head" />
+      <Button layoutX="767.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#Clicked2" prefHeight="46.0" prefWidth="114.0" text="time" />
+   </children>
+</AnchorPane>
